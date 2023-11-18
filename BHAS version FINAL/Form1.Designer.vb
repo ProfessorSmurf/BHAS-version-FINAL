@@ -72,13 +72,16 @@ Partial Class Form1
         '
         'Button2
         '
+        Me.Button2.BackColor = System.Drawing.Color.Lime
+        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(176, 313)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(157, 35)
         Me.Button2.TabIndex = 5
         Me.Button2.Text = "Guest"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Button3
         '
