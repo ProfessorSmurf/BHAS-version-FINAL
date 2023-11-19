@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/BHAS version FINAL/BHAS version FINAL/bin/Debug/BHAS version FINAL.exe
+*.vsidx
+/.vs/slnx.sqlite
