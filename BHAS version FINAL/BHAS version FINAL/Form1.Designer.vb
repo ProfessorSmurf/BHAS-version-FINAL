@@ -38,7 +38,7 @@ Partial Class Form1
         Me.PictureBox1.Location = New System.Drawing.Point(143, 79)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(230, 165)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
@@ -46,7 +46,7 @@ Partial Class Form1
         '
         Me.btnadmin.BackColor = System.Drawing.SystemColors.HotTrack
         Me.btnadmin.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnadmin.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnadmin.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnadmin.ForeColor = System.Drawing.Color.White
         Me.btnadmin.Location = New System.Drawing.Point(116, 280)
         Me.btnadmin.Name = "btnadmin"
@@ -59,7 +59,7 @@ Partial Class Form1
         '
         Me.btnguest.BackColor = System.Drawing.Color.SeaGreen
         Me.btnguest.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnguest.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnguest.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnguest.ForeColor = System.Drawing.Color.White
         Me.btnguest.Location = New System.Drawing.Point(116, 332)
         Me.btnguest.Name = "btnguest"
@@ -72,7 +72,7 @@ Partial Class Form1
         '
         Me.btnexit.BackColor = System.Drawing.Color.Firebrick
         Me.btnexit.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnexit.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnexit.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnexit.ForeColor = System.Drawing.Color.White
         Me.btnexit.Location = New System.Drawing.Point(116, 385)
         Me.btnexit.Name = "btnexit"
@@ -84,11 +84,11 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(103, 12)
         Me.Label1.Name = "Label1"
         Me.Label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label1.Size = New System.Drawing.Size(371, 36)
+        Me.Label1.Size = New System.Drawing.Size(290, 20)
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "Welcome to Blue House Apartment"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -96,18 +96,18 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(163, 36)
         Me.Label2.Name = "Label2"
         Me.Label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label2.Size = New System.Drawing.Size(235, 36)
+        Me.Label2.Size = New System.Drawing.Size(177, 20)
         Me.Label2.TabIndex = 8
         Me.Label2.Text = "Management System"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.ClientSize = New System.Drawing.Size(523, 458)

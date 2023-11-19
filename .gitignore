@@ -2,6 +2,15 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/BHAS version FINAL/BHAS version FINAL/bin/Debug/BHAS version FINAL.exe
+/.gitignore
+/.gitignore
+/BHAS version FINAL/.vs/BHAS version FINAL/FileContentIndex/4730e6ab-8fb4-4490-8715-0f9c231a1a33.vsidx
 *.vsidx
-/.vs/slnx.sqlite
+/.gitignore
+/.vs/BHAS-version-FINAL/v17/.wsuo
+/.vs/ProjectSettings.json
+*.sqlite
+/.vs/VSWorkspaceState.json
+/.vs/BHAS-version-FINAL/FileContentIndex/802763f3-647e-41d1-ba2f-c74dba63676e.vsidx
+/.vs/BHAS-version-FINAL/FileContentIndex/b69d4f2a-ef82-4736-9d0f-21eeb7881942.vsidx
+*.suo
