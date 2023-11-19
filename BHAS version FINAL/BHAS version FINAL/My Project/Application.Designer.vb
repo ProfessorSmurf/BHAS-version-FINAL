@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.BHAS_version_FINAL.AddBoarder
+            Me.MainForm = Global.BHAS_version_FINAL.Form2
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
