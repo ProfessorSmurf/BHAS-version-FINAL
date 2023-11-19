@@ -48,9 +48,9 @@ Partial Class Form4
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(1128, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(48, 23)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(139, 132)
+        Me.PictureBox1.Size = New System.Drawing.Size(89, 87)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 7
         Me.PictureBox1.TabStop = False
@@ -78,7 +78,7 @@ Partial Class Form4
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.DataGridView1.DefaultCellStyle = DataGridViewCellStyle2
-        Me.DataGridView1.Location = New System.Drawing.Point(170, 10)
+        Me.DataGridView1.Location = New System.Drawing.Point(170, 12)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
         DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
@@ -156,6 +156,7 @@ Partial Class Form4
         Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(78, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Panel4.Controls.Add(Me.Button5)
         Me.Panel4.Controls.Add(Me.Button6)
+        Me.Panel4.Controls.Add(Me.PictureBox1)
         Me.Panel4.Controls.Add(Me.Button7)
         Me.Panel4.Controls.Add(Me.Button9)
         Me.Panel4.Location = New System.Drawing.Point(-15, -5)
@@ -237,12 +238,11 @@ Partial Class Form4
         '
         'Form4
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 17.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1279, 635)
         Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.PictureBox1)
         Me.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
