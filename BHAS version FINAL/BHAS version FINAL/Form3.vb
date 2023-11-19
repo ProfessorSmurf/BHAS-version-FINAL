@@ -13,4 +13,10 @@ Public Class Form3
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Form4.ShowDialog()
     End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Form1.Show()
+        Me.Hide()
+
+    End Sub
 End Class
