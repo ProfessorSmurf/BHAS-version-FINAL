@@ -48,7 +48,7 @@ Partial Class Form4
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(48, 23)
+        Me.PictureBox1.Location = New System.Drawing.Point(1117, 12)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(89, 87)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -156,12 +156,11 @@ Partial Class Form4
         Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(78, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Panel4.Controls.Add(Me.Button5)
         Me.Panel4.Controls.Add(Me.Button6)
-        Me.Panel4.Controls.Add(Me.PictureBox1)
         Me.Panel4.Controls.Add(Me.Button7)
         Me.Panel4.Controls.Add(Me.Button9)
         Me.Panel4.Location = New System.Drawing.Point(-15, -5)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(172, 561)
+        Me.Panel4.Size = New System.Drawing.Size(172, 492)
         Me.Panel4.TabIndex = 21
         '
         'Button5
@@ -240,9 +239,10 @@ Partial Class Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 17.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1279, 635)
+        Me.ClientSize = New System.Drawing.Size(1224, 499)
         Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
